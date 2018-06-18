@@ -15,4 +15,3 @@ Files:
     - aws_autoscaling_cloudwatch_event.json - Example of CloudWatch Events to trigger the Lambda Function
     - aws_autoscaling_execution_role.json - The permissions (Execution role) required for the lambda function to operate
     - aws_autoscaling_lambda_function.py - the actual Lambda function (written in Python 2.7)
-    
