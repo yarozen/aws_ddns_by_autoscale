@@ -1,4 +1,4 @@
-#### This AWS Lambda function gets triggered on every auto scaling group CloudWatch Event being watched and creates/updates Route 53 Private Hosted Zone with A record set of all the Private IPs of the running instances in that auto scaling group.
+### This AWS Lambda function gets triggered on every auto scaling group CloudWatch Event being watched and creates/updates Route 53 Private Hosted Zone with A record set of all the Private IPs of the running instances in that auto scaling group.
 
 ##### In details:
 - An Auto Scaling event triggered the Lambda function (Instance Launched / Instance Terminated)
