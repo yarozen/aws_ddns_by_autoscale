@@ -70,7 +70,7 @@ def create_hosted_zone(domain, event_region, event_vpc_id):
             },
             CallerReference = str(time.time()),
             HostedZoneConfig = {
-                'Comment': 'Created by Radware AWS autoscaling lambda function',
+                'Comment': 'Created by yarozen AWS autoscaling lambda function',
                 'PrivateZone': True
             }
         )
